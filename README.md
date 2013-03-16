@@ -18,3 +18,6 @@ POC
 Create a Phone Gap project from command line.
 Do some git with github to create a "template" for project
 Compile on Android-AIDE :)
+
+NOTE:
+The version in master is without CSS and is therefor a template to add your taste off css
