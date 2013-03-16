@@ -18,6 +18,8 @@
 */
 
 var deviceInfo = function() {
+       alert("deviceInfo");
+       beep();
     document.getElementById("platform").innerHTML = device.platform;
     document.getElementById("version").innerHTML = device.version;
     document.getElementById("uuid").innerHTML = device.uuid;
