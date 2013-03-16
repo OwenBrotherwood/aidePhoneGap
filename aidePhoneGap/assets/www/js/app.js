@@ -19,28 +19,34 @@
 
 var app = (function(){
     var
-		devicePlatform = 'UNKNOWN: not PhoneGap ...',
+		devicePlatform = 'NOT INITIALIZED',
 		isPhoneGap = false,
         bindEvents = function() {
-			if ( window.device ){
+			try {
+				devicePlatform = device.platform;
 				isPhoneGap = true;
-        		document.addEventListener('deviceready', onDeviceReady, false);				
-			}else{
+        		document.addEventListener('deviceready', onDeviceReady, false);
+			}catch (err){
 				window.onload = windowOnload;
-			}
-    	},
-		displayPlatform = function(){
+			}			
+		},
+		setDevicePlatformElement = function(){
 			var 
-				platform = document.getElementById("platform");
-			platform.innerHTML = devicePlatform;
+				id = document.getElementById("devicePlatform");
+				id.innerHTML = devicePlatform;
 		},
 		windowOnload = function(){
-			displayPlatform();
+			if ( ! isPhoneGap ){
+				devicePlatform = "UNKNOWN";			
+				setDevicePlatformElement();
+			}
 		},
     	onDeviceReady = function() {
-			displayPlatform;
+			devicePlatform = device.platform;				
+			setDevicePlatformElement();
     	},
 		init = function(){
+
 			bindEvents();
 		};
 		return {
