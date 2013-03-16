@@ -20,24 +20,23 @@
 var app = (function(){
     var
 		devicePlatform = 'NOT INITIALIZED',
-		isPhoneGap = false,
+		isPhoneGap = false,		// test on this value if y are developing with browser
         bindEvents = function() {
-			try {
-				devicePlatform = device.platform;
-				isPhoneGap = true;
-        		document.addEventListener('deviceready', onDeviceReady, false);
-			}catch (err){
-				document.addEventListener('deviceready', onDeviceReady, false);			
-				window.onload = windowOnload;
-			}			
+			document.addEventListener('deviceready', onDeviceReady, false);			
+			window.onload = windowOnload;			
 		},
 		setDevicePlatformElement = function(){
 			var 
 				id = document.getElementById("devicePlatform");
 				id.innerHTML = devicePlatform;
 		},
-		windowOnload = function(){
+		windowOnload = function(){ // only really needed when developing with browser
 			setDevicePlatformElement();
+			try {
+				alert(device.platform); 
+			}catch (err){
+				alert(err);
+			}
 		},
     	onDeviceReady = function() {
 			isPhoneGap = true;

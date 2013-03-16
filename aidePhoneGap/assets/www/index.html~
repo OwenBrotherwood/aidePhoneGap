@@ -23,14 +23,16 @@
         <meta name="format-detection" content="telephone=no" />
         <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
         <title>No CSS App</title>
+<!-- Load cordova/phonegap asap so it can init -->
+		<script type="text/javascript" src="cordova-2.5.0.js"></script>
     </head>
     <body>
         <div>
             <h1>No CSS App</h1>
             <h2> https://github.com/OwenBrotherwood/aidePhoneGap</h2>
-			Platform: <span id="#devicePlatform"></span>
+			Platform: <span id="devicePlatform"></span>
         </div>
-        <script type="text/javascript" src="cordova-2.5.0.js"></script>
+<!-- load others after own beliefs as to first in markup or last ... -->
         <script type="text/javascript" src="js/app.js"></script>
         <script type="text/javascript">
             app.init();

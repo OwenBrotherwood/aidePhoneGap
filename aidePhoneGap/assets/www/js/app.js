@@ -20,7 +20,7 @@
 var app = (function(){
     var
 		devicePlatform = 'NOT INITIALIZED',
-		isPhoneGap = false,
+		isPhoneGap = false,		// test on this value if y are developing with browser
         bindEvents = function() {
 			document.addEventListener('deviceready', onDeviceReady, false);			
 			window.onload = windowOnload;			
@@ -30,10 +30,10 @@ var app = (function(){
 				id = document.getElementById("devicePlatform");
 				id.innerHTML = devicePlatform;
 		},
-		windowOnload = function(){
+		windowOnload = function(){ // only really needed when developing with browser
 			setDevicePlatformElement();
 			try {
-				alert(device.platform);
+				alert(device.platform); 
 			}catch (err){
 				alert(err);
 			}
@@ -44,7 +44,6 @@ var app = (function(){
 			setDevicePlatformElement();
     	},
 		init = function(){
-
 			bindEvents();
 		};
 		return {
