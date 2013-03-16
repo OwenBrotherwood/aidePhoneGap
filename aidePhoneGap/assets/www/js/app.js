@@ -22,15 +22,8 @@ var app = (function(){
 		devicePlatform = 'NOT INITIALIZED',
 		isPhoneGap = false,
         bindEvents = function() {
-			try {
-				devicePlatform = device.platform;
-				isPhoneGap = true;
-        		document.addEventListener('deviceready', onDeviceReady, false);
-			}catch (err){
-document.addEventListener('deviceready', onDeviceReady, false);
-			
-				window.onload = windowOnload;
-			}			
+			document.addEventListener('deviceready', onDeviceReady, false);			
+			window.onload = windowOnload;			
 		},
 		setDevicePlatformElement = function(){
 			var 
@@ -39,8 +32,14 @@ document.addEventListener('deviceready', onDeviceReady, false);
 		},
 		windowOnload = function(){
 			setDevicePlatformElement();
+			try {
+				alert(device.platform);
+			}catch (err){
+				alert(err);
+			}
 		},
     	onDeviceReady = function() {
+			isPhoneGap = true;
 			devicePlatform = device.platform;
 			setDevicePlatformElement();
     	},
