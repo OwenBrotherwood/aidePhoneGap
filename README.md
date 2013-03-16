@@ -1,6 +1,10 @@
 aidePhoneGap
 ============
 
+<a href=https://play.google.com/store/apps/details?id=com.aide.premium.key>AIDE</a>
+
+<a href=http://phonegap.com>PhoneGap</a>
+
 A quick template so that one can use AIDE with a PhoneGap projekt.
 
 NOTE:
