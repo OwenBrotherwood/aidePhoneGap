@@ -3,11 +3,6 @@ aidePhoneGap
 
 aidePhoneGap
 
-POC
-Create a Phone Gap project from command line.
-Do some git with github
-Compile on Android-AIDE :)
-
 Add html, css and JS after taste ...
 
 Did you know one can edit files on a git repository @ github???
@@ -18,3 +13,8 @@ you only need a webbrowser to edit files and an Android to show the app which ha
 https://play.google.com/store/apps/details?id=com.aide.premium.key
 
 Seeing is believing ...
+
+POC
+Create a Phone Gap project from command line.
+Do some git with github to create a "template" for project
+Compile on Android-AIDE :)
