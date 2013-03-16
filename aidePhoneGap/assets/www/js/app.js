@@ -36,14 +36,10 @@ var app = (function(){
 				id.innerHTML = devicePlatform;
 		},
 		windowOnload = function(){
-			if ( ! isPhoneGap ){
-				devicePlatform = "UNKNOWN";			
-				setDevicePlatformElement();
-			}
+			setDevicePlatformElement();
 		},
     	onDeviceReady = function() {
-			devicePlatform = device.platform;				
-			setDevicePlatformElement();
+			//setDevicePlatformElement();
     	},
 		init = function(){
 
