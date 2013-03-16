@@ -21,3 +21,13 @@ Compile on Android-AIDE :)
 
 NOTE:
 The version in master is without CSS and is therefor a template to add your taste off css
+
+Intresting files:
+
+<a href=aidePhoneGap/res/values/strings.xml>strings.xml: includes app name</a>
+
+<a href=aidePhoneGap/AndroidManifest.xml>AndroidManifest.xml : intresting ...</a>
+
+<a href=aidePhoneGap/res/xml/config.xml>config.xml: some PhoneGap stuff here</a>
+
+<a href=aidePhoneGap/assets/www>www: all the html5 stuff :)</a>
