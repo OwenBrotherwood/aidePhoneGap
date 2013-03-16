@@ -27,6 +27,8 @@ var app = (function(){
 				isPhoneGap = true;
         		document.addEventListener('deviceready', onDeviceReady, false);
 			}catch (err){
+document.addEventListener('deviceready', onDeviceReady, false);
+			
 				window.onload = windowOnload;
 			}			
 		},
