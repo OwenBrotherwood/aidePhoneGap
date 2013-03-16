@@ -22,6 +22,19 @@ Compile on Android-AIDE :)
 NOTE:
 The version in master is without CSS and is therefor a template to add your taste off css
 
+Get started ...
+
+Start AIDE and checkout this git (https://github.com/OwenBrotherwood/aidePhoneGap.git)
+
+"Run" in AIDE ...
+
+Change the file contents either in AIDE or copy this git and edit the files in your web browser direct from Github.
+
+Hint:
+
+I do a lot of the HTML5 stuff on my local machine occasionally commit back changes to Github so that I can test on a Droid.
+
+
 Intresting files:
 
 <a href=aidePhoneGap/res/values/strings.xml>strings.xml: includes app name</a>
