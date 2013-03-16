@@ -39,7 +39,8 @@ var app = (function(){
 			setDevicePlatformElement();
 		},
     	onDeviceReady = function() {
-			//setDevicePlatformElement();
+			devicePlatform = device.platform;
+			setDevicePlatformElement();
     	},
 		init = function(){
 
