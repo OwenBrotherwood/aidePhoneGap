@@ -1,26 +1,13 @@
 aidePhoneGap
 ============
 
-aidePhoneGap
-
-Add html, css and JS after taste ...
-
-Did you know one can edit files on a git repository @ github???
-
-This means, to develope an Android app "on the fly":
-you only need a webbrowser to edit files and an Android to show the app which has Android-Aide installed
-
-https://play.google.com/store/apps/details?id=com.aide.premium.key
-
-Seeing is believing ...
-
-POC
-Create a Phone Gap project from command line.
-Do some git with github to create a "template" for project
-Compile on Android-AIDE :)
+A quick template so that one can use AIDE with a PhoneGap projekt.
 
 NOTE:
-The version in master is without CSS and is therefor a template to add your taste off css
+The version in master is without CSS: basic boring text display
+The world of HTML5 is full of personal preferances, and you can add your personal preferances after you have a basic template.
+
+There is only a very basic <div> replacement with text from what PhoneGap believes the device platform is (Android :) )
 
 Get started ...
 
