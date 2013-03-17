@@ -10,6 +10,15 @@
   <div id="main" data-role="page" ng-controller="MainController">
     <div data-role="content">
         Hello <span id=devicePlatform>mobile</span> world!
+        <p>
+        <ul data-role="listview">
+            <li ng-repeat="phone in phones | paged:'pager1'">
+              <h2>{{phone.name}}</h2><p>{{phone.snippet}}</p>
+            </li>
+            <li ngm-if="pager1.hasMore">
+                <a href="#" ngm-vclick="pager1.loadMore()">Load more</a>
+             </li>
+        </ul>
     </div>
   </div>
 </div>
@@ -21,14 +30,26 @@
   <script type="text/javascript" src="lib/jq/mobile/jquery.mobile-1.3.0.js"></script>
   <script src="lib/angular/angular.js"></script>
   <script src="lib/jqmaa/jquery-mobile-angular-adapter-1.2.0.js"></script>
+<!--
+  A very basic use of JQM and AngularJS with PhoneGap kicking in if on a PhoneGap mobile ...
+-->
   <script type="text/javascript">
     document.addEventListener('deviceready', onDeviceReady, false);
     function onDeviceReady(){
         var id = document.getElementById("devicePlatform");
-        id.innerHTML = device.platform;
+        id.innerHTML = device.platform + " PhoneGap";
     };
     var mod = angular.module("ngm", []);
-    mod.controller('MainController', function($scope) {});
+    mod.controller('MainController', function($scope) {
+      $scope.phones = [
+        {"name": "Nexus S",
+         "snippet": "Fast just got faster with Nexus S."},
+        {"name": "Motorola XOOM™ with Wi-Fi",
+         "snippet": "The Next, Next Generation tablet."},
+        {"name": "MOTOROLA XOOM™",
+         "snippet": "The Next, Next Generation tablet."}
+      ]; 
+   });
   </script>
 </body>
 </html>
