@@ -11,10 +11,6 @@ BasicAIDEPhoneGap is without CSS: basic boring text display
 The world of HTML5 is full of personal preferances, and you can add your to the template.
 There is only a very basic 'div' replacement with text from what PhoneGap believes the device platform is (Android :) )
 
-BasicAngularJSAIDEPhoneGap is also without much ...
-
-BasicKitchenSink is work in progress as combining Jquery Mobile and AngularJS requires a third component, an adapter that has some documentation that is needed to be read. https://github.com/tigbro/jquery-mobile-angular-adapter
-
 <h2>Get started ...</h2>
 
 Start AIDE and checkout this git (https://github.com/OwenBrotherwood/aidePhoneGap.git)
