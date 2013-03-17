@@ -1,10 +1,6 @@
 <h1>aidePhoneGap</h1>
 
-<a href=https://play.google.com/store/apps/details?id=com.aide.premium.key>AIDE</a>
-
-<a href=http://phonegap.com>PhoneGap</a>
-
-Some quick templates so that one can use AIDE with a PhoneGap projekt.
+Some quick templates so that one can use <a href=https://play.google.com/store/apps/details?id=com.aide.premium.key>AIDE</a> with a <a href=http://phonegap.com>PhoneGap</a> projekt.
 
 <b>Note:</b>
 BasicAIDEPhoneGap is without CSS: basic boring text display
@@ -39,3 +35,5 @@ I do a lot of the HTML5 stuff on my local machine occasionally commit back chang
 <a href=BasicAIDEPhoneGap/res/xml/config.xml>config.xml</a> some PhoneGap stuff here
 
 <a href=BasicAIDEPhoneGap/assets/www>www</a> all the html5 stuff :) or alter config.xml and change index.html to http://mydomain.org/myApp/index.html
+
+Look around for the icons/images and change as needed.
