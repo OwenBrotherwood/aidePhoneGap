@@ -23,7 +23,7 @@ Change the file contents either in AIDE or copy this git and edit the files in y
 
 I do a lot of the HTML5 stuff on my local machine occasionally commit back changes to Github so that I can test on a Droid.
 
-<h3>Intresting files</h3>
+<h3>BasicAIDEPhoneGap intresting files</h3>
 
 <a href=BasicAIDEPhoneGap/res/values/strings.xml>strings.xml</a> includes app name
 
