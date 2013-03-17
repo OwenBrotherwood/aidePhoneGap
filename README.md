@@ -15,6 +15,9 @@ BasicAngularJSAIDEPhoneGap is also without much ...
 
 BasicKitchenSink combines Jquery Mobile and AngularJS with a third component, an adapter  https://github.com/tigbro/jquery-mobile-angular-adapter Note that there is some doc one needs to read in order to sucessfully combine the two. Again, very basic 
 
+At some stage, I will have to get an Android Plugin finished for Hockeyapp.net and Android ...
+https://github.com/OwenBrotherwood/phonegap-plugins/tree/master/Android/HockeyApp
+
 <h2>Get started ...</h2>
 
 Start AIDE and checkout this git (https://github.com/OwenBrotherwood/aidePhoneGap.git)
