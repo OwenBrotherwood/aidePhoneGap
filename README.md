@@ -9,8 +9,10 @@ A quick template so that one can use AIDE with a PhoneGap projekt.
 <b>Note:</b>
 The version in master is without CSS: basic boring text display
 The world of HTML5 is full of personal preferances, and you can add your personal preferances after you have a basic template.
-
 There is only a very basic 'div' replacement with text from what PhoneGap believes the device platform is (Android :) )
+
+Other work can be found in branches, for example AgilityJS and in the near future, a JQuery Mobile Template. The branches will get merged into master as soon as I have some structure for the various templates.
+
 
 <h2>Get started ...</h2>
 
