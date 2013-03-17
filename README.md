@@ -31,4 +31,4 @@ I do a lot of the HTML5 stuff on my local machine occasionally commit back chang
 
 <a href=BasicAIDEPhoneGap/res/xml/config.xml>config.xml</a> some PhoneGap stuff here
 
-<a href=BasicAIDEPhoneGap/assets/www>www</a> all the html5 stuff :)
+<a href=BasicAIDEPhoneGap/assets/www>www</a> all the html5 stuff :) or alter config.xml and change index.html to http://mydomain.org/myApp/index.html
