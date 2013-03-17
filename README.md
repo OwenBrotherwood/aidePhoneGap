@@ -13,7 +13,7 @@ There is only a very basic 'div' replacement with text from what PhoneGap believ
 
 BasicAngularJSAIDEPhoneGap is also without much ...
 
-BasicKitchenSink is work in progress as combining Jquery Mobile and AngularJS requires a third component, an adapter that has some documentation that is needed to be read. https://github.com/tigbro/jquery-mobile-angular-adapter
+BasicKitchenSink combines Jquery Mobile and AngularJS with a third component, an adapter  https://github.com/tigbro/jquery-mobile-angular-adapter Note that there is some doc one needs to read in order to sucessfully combine the two. Again, very basic 
 
 <h2>Get started ...</h2>
 
