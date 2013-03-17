@@ -4,21 +4,18 @@
 
 <a href=http://phonegap.com>PhoneGap</a>
 
-A quick template so that one can use AIDE with a PhoneGap projekt.
+Some quick templates so that one can use AIDE with a PhoneGap projekt.
 
 <b>Note:</b>
-The version in master is without CSS: basic boring text display
-The world of HTML5 is full of personal preferances, and you can add your personal preferances after you have a basic template.
+BasicAIDEPhoneGap is without CSS: basic boring text display
+The world of HTML5 is full of personal preferances, and you can add your to the template.
 There is only a very basic 'div' replacement with text from what PhoneGap believes the device platform is (Android :) )
-
-Other work can be found in branches, for example AngularJS as I need to find a MVC I can use and in the near future, a JQuery Mobile Template unless I master my own CSS to give an interface that I like without using JQuery. The branches will get merged into master as soon as I have some structure for the various templates.
-
 
 <h2>Get started ...</h2>
 
 Start AIDE and checkout this git (https://github.com/OwenBrotherwood/aidePhoneGap.git)
 
-"Run" in AIDE.
+"Run" in AIDE: navigate to the directory of interest that has the project
 
 Change the file contents either in AIDE or copy this git and edit the files in your web browser direct from Github.
 
@@ -26,13 +23,12 @@ Change the file contents either in AIDE or copy this git and edit the files in y
 
 I do a lot of the HTML5 stuff on my local machine occasionally commit back changes to Github so that I can test on a Droid.
 
-
 <h3>Intresting files</h3>
 
-<a href=aidePhoneGap/res/values/strings.xml>strings.xml</a> includes app name
+<a href=BasicAIDEPhoneGap/res/values/strings.xml>strings.xml</a> includes app name
 
-<a href=aidePhoneGap/AndroidManifest.xml>AndroidManifest.xml</a> intresting ...
+<a href=BasicAIDEPhoneGap/AndroidManifest.xml>AndroidManifest.xml</a> intresting ...
 
-<a href=aidePhoneGap/res/xml/config.xml>config.xml</a> some PhoneGap stuff here
+<a href=BasicAIDEPhoneGap/res/xml/config.xml>config.xml</a> some PhoneGap stuff here
 
-<a href=aidePhoneGap/assets/www>www</a> all the html5 stuff :)
+<a href=BasicAIDEPhoneGap/assets/www>www</a> all the html5 stuff :)
