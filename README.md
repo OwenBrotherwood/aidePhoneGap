@@ -11,7 +11,7 @@ The version in master is without CSS: basic boring text display
 The world of HTML5 is full of personal preferances, and you can add your personal preferances after you have a basic template.
 There is only a very basic 'div' replacement with text from what PhoneGap believes the device platform is (Android :) )
 
-Other work can be found in branches, for example AgilityJS and in the near future, a JQuery Mobile Template. The branches will get merged into master as soon as I have some structure for the various templates.
+Other work can be found in branches, for example AngularJS as I need to find a MVC I can use and in the near future, a JQuery Mobile Template unless I master my own CSS to give an interface that I like without using JQuery. The branches will get merged into master as soon as I have some structure for the various templates.
 
 
 <h2>Get started ...</h2>
