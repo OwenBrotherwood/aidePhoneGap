@@ -2,7 +2,7 @@
 
 Some quick templates so that one can use <a href=https://play.google.com/store/apps/details?id=com.aide.premium.key>AIDE</a> with a <a href=http://phonegap.com>PhoneGap</a> projekt.
 
-A combination that means one can make Apps with just one's mobile...
+A combination that means one can make Apps with just one's Android mobile...
 
 <b>Note:</b>
 BasicAIDEPhoneGap is without CSS: basic boring text display
